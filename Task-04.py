@@ -6,7 +6,6 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 df = pd.read_csv('C:/Users/ASUS/Documents/GitHub/PRODIGY-INFOTECH-Task-04/twitter_training.csv')
 
 print(df.columns)
-
 print(df.head())
 
 df = df.dropna(subset=['Text']) 
